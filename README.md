@@ -19,6 +19,9 @@ It is the process by which certain features of interest  in an image are detect
 # IMAGE ANALYSIS:  
 The output is analyzed and displayed either as no tumor or tumor detected with its output
 
+# DATASET
+We have attached the MRI images used for training and testing in the dataset folder.
+
 # CONCLUSION
 In this Project, we have used brain MRI images, segmented into normal brain tissue (unaffected) and abnormal tumor tissue (infected). To remove a noise and smoothen the image, preprocessing is used which also results in the improvement of signal-to-noise ratio. We have applied thresholding and morphological operations to extract the boundary and detect the tumor.
 The larger goal of the project is to build a data base of 2D image data of tumor from the MRI images taken from different angle of a particular human and by analyzing them to point out the exact 3D location of the tumor . To fulfill this, 2D tumor detection and segmentation have been developed to better accuracy so that 3D detection can be more reliable. This is the primary target of the project.
